@@ -1,0 +1,65 @@
+body{
+    margin:0;
+    padding:0;
+    background: rgb(104,205,213);
+}
+.head_btn,.title,.btn1,.btn2{
+    background:url(image/task3UI.png);
+}
+.head_btn{
+    width:60px;
+    height:64px;
+
+    background-position: -3px -109px;
+    margin:10px 0 0 15px;
+}
+.title{
+    width:200px;
+    height:80px;
+    margin:50px auto 80px auto;
+    background-position: -5px 0;
+}
+.content{
+    width:70%;
+    height:200px;
+    margin:0 auto;
+}
+.content>p{
+    font-size:35px;
+    color:white;
+}
+.button{
+    width:70%;
+    padding-bottom: 10%;
+    margin:100px auto 0;
+}
+.btn1,.btn2{
+    width:90px;
+    height:90px;
+}
+.btn1{
+    float: left;
+    margin: 50px 0 0 15%;
+    background-position: -327px -6px;
+
+}
+.btn2{
+    float: right;
+    margin: 50px 15% 0 0;
+    background-position: -222px -7px;
+}
+
+.btn1txt,.btn2txt{
+    font-size: 20px;
+    color:white;
+}
+.btn1txt{
+    float: left;
+    clear: left;
+    margin:5px 0 0 15%;
+}
+.btn2txt{
+    float: right;
+    clear: right;
+    margin:5px 15.5% 0 0;
+}
